@@ -60,7 +60,7 @@ public class Practica_logica {
                     
                 case 'Q':
                 case 'Z':
-                    punteo = punteo + 4;
+                    punteo = punteo + 10;
                     break;
             }
         }
