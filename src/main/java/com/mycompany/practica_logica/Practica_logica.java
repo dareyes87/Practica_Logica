@@ -1,3 +1,4 @@
+//su puta madre que chingo de cp
 package com.mycompany.practica_logica;
 import java.util.Scanner;
 
