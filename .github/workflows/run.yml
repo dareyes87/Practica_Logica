@@ -1,4 +1,4 @@
-name: Java CI
+name: Java Run
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main # Cambia 'main' por el nombre de tu rama principal si es diferente
 
 jobs:
-  build:
+  run:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,5 +15,5 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '11'
-      - name: Build with Maven
-        run: mvn -B package --file pom.xml
+      - name: Run Java project
+        run: java -cp target/<practica_logica>.jar com.mycompany.practica_logica.Practica_logica
