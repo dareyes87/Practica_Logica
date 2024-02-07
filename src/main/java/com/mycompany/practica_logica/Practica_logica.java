@@ -26,7 +26,7 @@ public class Practica_logica {
                 case 'R':
                 case 'S':
                 case 'T':
-                    punteo = punteo + 1;
+                    punteo = punteo + 2;
                     break;
                     
                 case 'D':
